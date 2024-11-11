@@ -46,7 +46,7 @@
 
 .block--centre {
   float: left;
-  margin-left: 35%;
+  margin-left: calc(50% - 20vh);
 }
 
 .subblock--centre {
