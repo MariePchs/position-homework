@@ -1,0 +1,48 @@
+.container {
+  background-color: bisque;
+  border: 1px solid black;
+  float: left;
+  min-width: 1280px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.block {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  width: 20vh;
+  height: 10vh;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.block--left {
+  float: left;
+}
+
+.block--right {
+  float: right;
+}
+
+.subblock {
+  height: 25vh;
+  width: 20vh;
+}
+
+.block--large {
+  height: calc(20vh + 10px);
+}
+
+.subblock--position {
+  float: right;
+}
+
+.block--centre {
+  margin-left: 40%;
+  display: inline-block;
+}
+
+.subblock--centre {
+  margin-right: auto;
+  display: inline-block;
+}
