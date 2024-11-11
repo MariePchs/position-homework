@@ -38,11 +38,11 @@
 }
 
 .block--centre {
-  margin-left: 40%;
-  display: inline-block;
+  float: left;
+  margin-left: 35%;
 }
 
 .subblock--centre {
-  margin-right: auto;
-  display: inline-block;
+  float: left;
+  margin-right: 35%;
 }
