@@ -1,10 +1,16 @@
 .container {
   background-color: bisque;
   border: 1px solid black;
-  float: left;
-  min-width: 1280px;
-  margin: 40px;
-  padding: 20px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.container::after {
+  content: "";
+  margin-bottom: 10px;
+  padding: 10px;
+  display: block;
+  clear: both;
 }
 
 .block {
@@ -27,6 +33,7 @@
 .subblock {
   height: 25vh;
   width: 20vh;
+  margin: 0 10px;
 }
 
 .block--large {
@@ -44,5 +51,5 @@
 
 .subblock--centre {
   float: left;
-  margin-right: 35%;
+  margin-left: 10px;
 }
